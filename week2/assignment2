@@ -1,0 +1,4 @@
+.text 
+lui  s0, 0x20232    
+# s0 = 0xABCDE000            
+addi s0, s0, 0x024  # s0 = s0 + 0x123 

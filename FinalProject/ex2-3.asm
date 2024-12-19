@@ -24,7 +24,7 @@
     time_msg:   .string "\nExecution time (ms): "
     
     # New data for output file
-    outfile:    .string "C:\\Users\\duong\\OneDrive\\BÁCH KHOA\\2024-1\\Assembly Language and Computer Architecture Lab\\CA\\FinalProject\\resultsBasicBig2.txt"
+    outfile:    .string "C:\\Users\\Admin\\OneDrive\\BÁCH KHOA\\2024-2\\Assembly Language and Computer Architecture Lab\\CA\\FinalProject\\results.txt"
     out_fd:     .word   0
     numbuf:     .space  12
     write_err:  .string "\nError writing to output file\n"
@@ -875,7 +875,7 @@ str_rev_done:
     ret
 
 # ============================================
-# Write results to file (updated)
+# Write results to file 
 # ============================================
 write_results:
     addi sp, sp, -16
